@@ -1,0 +1,4 @@
+rootProject.name = 'stackoverflow'
+include 'src:main:webapp'
+findProject(':src:main:webapp')?.name = 'webapp'
+
